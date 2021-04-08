@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+header{
+    width: 100%;
+    margin-top: 10px;
+    height: 27px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+header ul li{
+    list-style: none;
+    margin-right: 5px;
+    line-height: 27px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+header ul li a:hover{
+    color: rgb(252, 0, 0);
+}
+.login:hover{
+    background-color: rgb(55, 55, 243);
+}
+.all{
+    border-bottom: 2px solid blue;
+}
+.all a{
+    color: blue;
+}
+header ul li a button{
+    color: white;
+    background-color: rgb(0, 0, 255);
+    outline: none;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+#search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label{
+    border: 1px solid rgb(206, 200, 200);
+    width: 90%;
+    max-width: 600px;
+    height: 34px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.search .label ul{
+    line-height: 34px;
+}
+.textsearch{
+    outline: none;
+    font-size: 15px;
+    border: 0;
+    width: 100%;
+}
+.mic{
+    height: 18px;
+    margin-bottom: -7px;
+    margin-right: 4px;
+}
+.sear{
+    margin-left: -5px;
+    height: 18px;
+    margin-bottom: -7px;
+    margin-right: 4px;
+    width: 15px;
+    height: 15px;
+}
+
+#language{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.languages li a{
+    margin-right: 10px;
+    color: blue;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+
+}
+
+.footer .row1{
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+}
+.footer .row1{
+    padding: 7px 7px 7px;
+    border-bottom: 1px solid rgb(212, 208, 208);
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: rgb(139, 138, 138);
+}
+.footer .row2{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.footer .row3{
+    margin-bottom: 14px;
+}
